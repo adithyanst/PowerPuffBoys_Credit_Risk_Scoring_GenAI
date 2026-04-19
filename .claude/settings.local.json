@@ -29,7 +29,8 @@
       "Bash(brew install:*)",
       "Bash(pdflatex -interaction=nonstopmode Phase2_Agentic_Credit_Risk_Report.tex)",
       "Read(//Library/TeX/texbin/**)",
-      "Read(//usr/local/**)"
+      "Read(//usr/local/**)",
+      "Bash(pdflatex -interaction=nonstopmode architecture_diagram.tex)"
     ]
   }
 }
