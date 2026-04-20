@@ -6,7 +6,6 @@ Flow:
     Node 2 (guideline_retriever) → RAG: fetch relevant chunks from ChromaDB
     Node 3 (report_generator)    → Groq LLM → structured JSON report
 """
-
 import os
 
 # Ensure thread safety on Apple Silicon before any heavy imports
